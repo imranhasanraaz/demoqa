@@ -29,14 +29,13 @@ public class TC_Tables extends BaseTest {
 		webTablesPage.setAge(age);
 		webTablesPage.setSalary(salary);
 		webTablesPage.setDepartment(dept);
-		webTablesPage.setSubmitButton();
-		
+		webTablesPage.clickSubmitButton();
+
 		Assert.assertTrue(webTablesPage.isDeleteButtonPresent(), "User Not Added");
 		logger.info("Data of User has appeared in the table");
-		webTablesPage.setDeleteButton();
+		webTablesPage.clickDeleteButton();
 		logger.info("Delete successful");
 		logger.info("Number of records in table has changed");
 		logger.info("Table Test finished successfully");
-
 	}
 }

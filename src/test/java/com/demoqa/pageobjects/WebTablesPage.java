@@ -29,10 +29,6 @@ public class WebTablesPage extends BaseForm {
 				"Web Tables");
 	}
 
-	public void setDeleteButton() {
-		deleteButton.click();
-	}
-
 	public void setWebTables() {
 		webTables.click();
 	}
@@ -65,11 +61,15 @@ public class WebTablesPage extends BaseForm {
 		department.sendText(dept);
 	}
 
-	public void setSubmitButton() {
+	public void clickSubmitButton() {
 		submit.click();
 	}
 
 	public boolean isDeleteButtonPresent() {
 		return deleteButton.isDisplayed();
+	}
+
+	public void clickDeleteButton() {
+		deleteButton.click();
 	}
 }
