@@ -1,0 +1,53 @@
+[INFO ] 2023-04-07 17:30:55.135 [main] Demoqa - url opened
+[INFO ] 2023-04-07 17:30:55.140 [main] Demoqa - Frames Testing Strat
+[INFO ] 2023-04-07 17:30:55.227 [main] Demoqa - Homepage is Open
+[INFO ] 2023-04-07 17:30:55.718 [main] Demoqa - Page with Nested Frames form is open.
+[INFO ] 2023-04-07 17:30:55.962 [main] Demoqa - Switch to Parent Frame
+[INFO ] 2023-04-07 17:30:56.077 [main] Demoqa - Parent Frame message found
+[INFO ] 2023-04-07 17:30:56.137 [main] Demoqa - Switch to Child Frame
+[INFO ] 2023-04-07 17:30:56.221 [main] Demoqa - Child IFrame message found
+[INFO ] 2023-04-07 17:30:56.459 [main] Demoqa - Frame form is open
+[INFO ] 2023-04-07 17:30:56.676 [main] Demoqa - Switch to first frame
+[INFO ] 2023-04-07 17:30:56.775 [main] Demoqa - Switch to Default Content
+[INFO ] 2023-04-07 17:30:56.884 [main] Demoqa - Switch to Second frame
+[INFO ] 2023-04-07 17:30:56.961 [main] Demoqa - Same Frame message found
+[INFO ] 2023-04-07 17:30:56.963 [main] Demoqa - Frames Tested Succesfully
+[INFO ] 2023-04-07 17:30:57.914 [main] Demoqa - url opened
+[INFO ] 2023-04-07 17:30:57.916 [main] Demoqa - Alert Testing Strat
+[INFO ] 2023-04-07 17:30:57.964 [main] Demoqa - Main page is open
+[INFO ] 2023-04-07 17:30:58.469 [main] Demoqa - Alerts form has appeared on page
+[INFO ] 2023-04-07 17:30:58.617 [main] Demoqa - Alert has closed
+[INFO ] 2023-04-07 17:30:58.769 [main] Demoqa - Alert with text Do you confirm action? has appeared
+[INFO ] 2023-04-07 17:30:58.833 [main] Demoqa - Alert has closed Text You selected Ok has appeared on page
+[INFO ] 2023-04-07 17:30:58.984 [main] Demoqa - Enter randomly generated text, clicked OK button
+[INFO ] 2023-04-07 17:30:59.038 [main] Demoqa - Appeared text equals to the one you've entered before
+[INFO ] 2023-04-07 17:30:59.038 [main] Demoqa - Alerts Tested Succesfully
+[INFO ] 2023-04-07 17:31:00.009 [main] Demoqa - url opened
+[INFO ] 2023-04-07 17:31:00.010 [main] Demoqa - Handles Testing Strat
+[INFO ] 2023-04-07 17:31:00.069 [main] Demoqa - Homepage is Open
+[INFO ] 2023-04-07 17:31:00.523 [main] Demoqa - Page with Browser Windows form is open
+[INFO ] 2023-04-07 17:31:01.037 [main] Demoqa - New tab with sample page is open
+[INFO ] 2023-04-07 17:31:01.088 [main] Demoqa - New Tab Closed Page with Browser Windows form is open
+[INFO ] 2023-04-07 17:31:02.003 [main] Demoqa - Page with Links form is open
+[INFO ] 2023-04-07 17:31:03.568 [main] Demoqa - Homepage is Open
+[INFO ] 2023-04-07 17:31:03.681 [main] Demoqa - Page with Links form is open
+[INFO ] 2023-04-07 17:31:03.681 [main] Demoqa - Handles Tested Successfully
+[INFO ] 2023-04-07 17:31:05.589 [main] Demoqa - url opened
+[INFO ] 2023-04-07 17:31:05.633 [main] Demoqa - Homepage is Open
+[INFO ] 2023-04-07 17:31:05.946 [main] Demoqa - Clicked on Elements button
+[INFO ] 2023-04-07 17:31:06.215 [main] Demoqa - Page with Web Tables form is open
+[INFO ] 2023-04-07 17:31:06.404 [main] Demoqa - Registration Form has appeared on page
+[INFO ] 2023-04-07 17:31:07.585 [main] Demoqa - Data of User has appeared in the table
+[INFO ] 2023-04-07 17:31:07.731 [main] Demoqa - Delete successful
+[INFO ] 2023-04-07 17:31:07.731 [main] Demoqa - Number of records in table has changed
+[INFO ] 2023-04-07 17:31:07.731 [main] Demoqa - Table Test finished successfully
+[INFO ] 2023-04-07 17:31:08.578 [main] Demoqa - url opened
+[INFO ] 2023-04-07 17:31:08.628 [main] Demoqa - Homepage is Open
+[INFO ] 2023-04-07 17:31:08.926 [main] Demoqa - Clicked on Elements button
+[INFO ] 2023-04-07 17:31:09.154 [main] Demoqa - Page with Web Tables form is open
+[INFO ] 2023-04-07 17:31:09.356 [main] Demoqa - Registration Form has appeared on page
+[INFO ] 2023-04-07 17:31:10.685 [main] Demoqa - Data of User has appeared in the table
+[INFO ] 2023-04-07 17:31:10.840 [main] Demoqa - Delete successful
+[INFO ] 2023-04-07 17:31:10.840 [main] Demoqa - Number of records in table has changed
+[INFO ] 2023-04-07 17:31:10.840 [main] Demoqa - Table Test finished successfully
+[INFO ] 2023-04-07 17:31:12.045 [main] Demoqa - Browser Closed

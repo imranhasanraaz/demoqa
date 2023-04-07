@@ -1,0 +1,18 @@
+{
+  "clickButton": "You clicked a button",
+	
+  "confrimButton": "Do you confirm action?",
+  
+  "confrimButtonResult": "You selected Ok",
+  
+  "enterName": "Please enter your name",
+  
+  "simplePage": "This is a sample page",
+  
+  "ParentFrameText": "Parent frame",
+  
+  "ChildFrameText": "Child Iframe",
+  
+  "LinksHeader": "Following links will open new tab"
+  
+}
