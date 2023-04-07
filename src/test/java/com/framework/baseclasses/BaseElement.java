@@ -31,7 +31,8 @@ public abstract class BaseElement {
 	}
 
 	public boolean isDisplayed() {
-
+		new WebDriverWait(DriverFactory.getInstance(), Duration.ofSeconds(timeout))
+		.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		return find().isDisplayed();
 	}
 

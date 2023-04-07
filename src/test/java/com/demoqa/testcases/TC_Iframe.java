@@ -25,7 +25,7 @@ public class TC_Iframe extends BaseTest {
 
 		Assert.assertTrue(nestedFrame.isDisplayed(), "Page with Nested Frames form is not open.");
 		logger.info("Page with Nested Frames form is open.");
-
+		nestedFrame.isDisplayed();
 		nestedFrame.switchToParentFrame();
 		logger.info("Switch to Parent Frame");
 		String ActualParentFrameText = nestedFrame.getParentFrameText();
