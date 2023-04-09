@@ -2,9 +2,6 @@ package com.framework.utilities;
 
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Set;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
@@ -36,13 +33,8 @@ public class BrowserUtils {
 	}
 
 	public void getCurrentTab() {
-		Set<String> handles = driver.getWindowHandles();
-		Iterator<String> it = handles.iterator();
-		String parentWindow = it.next();
-		String childWindow = it.next();
-		driver.switchTo().window(childWindow);
-		new WebDriverWait(driver, Duration.ofSeconds(timeout));
-
+		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(tabs.get(1));
 	}
 
 	public Alert getAlert() throws InterruptedException {
